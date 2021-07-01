@@ -1,0 +1,126 @@
+body{
+    background-color: white;
+}
+
+
+.lead{
+
+    height: 300px;
+}
+
+.background_gradient{
+    
+    background:linear-gradient(180deg, hsla(126, 49%, 81%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);
+    height: 80%;
+
+}
+
+.avatar{
+
+    height: 250px;
+    width: 250px;
+    background: url(/img/99D006E4-D977-4CB9-A69A-B4BF772DD629.jpeg);
+    background-position: 0px -40px;
+    background-size: cover;
+    border: 4px white solid;
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 100px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.about{
+    padding-top:120px;
+
+}
+
+.heading{
+    margin: 80px 0 30px 0;
+    padding-top: 25px;  
+}
+
+.projects{
+    background: #e5e5e9;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+
+.pimage{
+    flex: 1.2;
+    max-height: 300px;
+    overflow: hidden;
+
+}
+
+.pinfo{
+    flex: 2;
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    
+}
+.cards{
+    display: flex;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto 35px auto;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+
+}
+
+li{
+    display: inline-block;
+    list-style: none;
+    padding: 8px 12px;
+    color: #161515;
+    background: #ffffff;
+    margin: 10px;
+    font-size: 17px;
+    cursor: default;
+}
+
+.list{
+    text-align: center;
+}
+
+.skills {
+    background: linear-gradient(90deg, hsla(176, 57%, 89%, 1) 0%, hsla(138, 100%, 90%, 1) 100%);
+    padding-bottom: 20px;
+}
+
+
+
+form{
+    padding-bottom: 100px;
+    margin-bottom: 300px;
+}
+
+.btn-contact{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.input{
+    height: 150px;
+}
+
+.element{
+    color: black;
+    margin-top: 10px;
+    font-size: large;
+}
+
+
+.contact-info{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background: #e5e5e9;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+    margin-bottom: 20px;
+}
