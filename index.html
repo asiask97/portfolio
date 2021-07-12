@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <div class='lead'>
+        <div class='background_gradient'></div>
+        <div class='avatar'></div>
+    </div>
+    <div class='about'>
+        <div class='container'>
+            <h4>Hello,</h4>
+            <h1>I'm Joanna Skoczen</h1>
+            <div class='container aboutme'>
+                <h2 class='heading row justify-content-center'>About Me</h2>
+                <div class='writting row'>I'm a self-thought, aspiring web developer / softwares developer with interest in data analysis. I'm working to create the best websites with modern technologies and the fundamentals of usability. Despite acquiring considerable knowledge, I always try to upskill and develop my skills, which allows me to write better code and create more advance projects.</div>
+            </div>
+            
+        </div>
+    </div>
+    <div class='projects '>
+        <h2 class='heading row justify-content-center'>Projects</h2>
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-6">
+                    <div class="cards">
+                        <div class="pimage">
+                            <img src='/img/Untitled 2.jpg' alt='image of laptop with a website being displayed'></a>
+                        </div>
+                        <div class="pinfo">
+                            <h4>Stock Trader Website</h4>
+                            <br>
+                            <p>A web app that lets a user set up an account and trade stock with real life price taken from an API.</p>
+                            <p><b>Username:</b> admin <b>Password:</b> admin</p>
+                            <p><b>Tools:</b> Python, Flask, SQLAlchemy, PostgreSQL, Heroku</p>
+                            <button type="button" class="btn btn-info" id='apphtml' >View Website</button>
+                            <button type="button" class="btn btn-info" id='apphtmlcode'>View Code</button>
+
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-lg-6">
+                    <div class="cards">
+                        <div class="pimage">
+                            <img src='/img/Model.JPG' alt='image of code written in python'></a>
+                        </div>
+                        <div class="pinfo">
+                            <h4>Football Match Analysis Using Neural Network</h4>
+                            <br>
+                            <p>Neural Network made with Keras which analyses halftime data to determine end result. When tested it turned out to be 75-85% accurate depended on soccer league.</p>
+                            <p><b>Tools:</b> Python, Tensorflow, Keras, Pandas, sklearn</p>
+                            <button type="button" class="btn btn-info" id='matchcode'>View Code</button>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-lg-6">
+                    <div class="cards">
+                        <div class="pimage">
+                            <img src='/img/webscraper.JPG' alt='image of code written in python'></a>
+                        </div>
+                        <div class="pinfo">
+                            <h4>Web Scraper</h4>
+                            <br>
+                            <p>Web Scraper that records half-time statistics of matches from a desired league into a csv. Statistics can later be used for Neuron Model training and testing.</p>
+                            <p><b>Tools:</b> Python, BeautifulSoup, Pandas</p>
+                            <button type="button" class="btn btn-info" id='webcode'>View Code</button>
+                        </div>
+                    </div>   
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="skills">
+        <h2 class="heading row justify-content-center">Skills</h2>
+        <ul class='list'>
+            <li>JavaScript</li>
+            <li>C++</li>
+            <li>Python</li>
+            <li>Bootstrap</li>
+            <li>SQL</li>
+            <li>SQLite</li>
+            <li>Flask</li>
+            <li>Linux</li>
+        </ul>
+    </div>
+    <div class="contact ">
+        <div class="container">
+            <h2 class="heading row justify-content-center" >Get in Touch</h2>
+                <div class="contact-info">
+                    <a href="mailto: asiaskoczen@gmail.com" class="row justify-content-center element">asiaskoczen@gmail.com</a>
+                    <a href="tel:0857713110" class="row justify-content-center element">(085)7713110</a>
+                </div>
+                <form action="https://formsubmit.co/asiaskoczen@gmail.com" method="POST">
+                    <div class="form-group">
+                        <label for="InputEmail">Email address</label>
+                        <input type="email"  name="email" class="form-control" id="InputEmail" >
+                    </div>
+                    <div class="form-group">
+                        <label for="Textarea">Message</label>
+                        <textarea  name="textarea" class="form-control input" id="Textarea" ></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-info btn-contact ">Submit</button>
+                </form>
+            
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+
+</html>
